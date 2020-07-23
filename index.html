@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="result.html" method="GET" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" max="150">
+        </div>
+        <div>
+            <h2>Favorite Foods</h2>
+            <label for="bananas">Bananas</label>
+            <input type="checkbox" name="bananas" id="bananas">
+            <label for="apples">Apples</label>
+            <input type="checkbox" name="apples" id="apples">
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" name="file" id="file">
+        </div>
+       <div>
+           <button type="submit">Submit</button>
+       </div>
+    </form>
+
+<script src="app.js"></script>
+</body>
+</html>
